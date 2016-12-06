@@ -6755,13 +6755,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+/*END OF BOOTSTRAP CSS*/
 
-/*Custom Bootstrap Styles (edits)*/
-.navbar {
-  margin-bottom: 0px;
-}
-.col-lg-12 {
-  padding: 0;
-  max-width: 1280px;
-}
+/*Custom Bootstrap Styles (Your edits to bootstrap)*/
+
 
