@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  /*Google Font imports*/
+  @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  /*Fixes sizing on navbar logo*/
+  .navbar-brand {
+  padding: 5px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+/*Gives a little bit of space between the bottom of the carousel and the first header*/
+.container.text-center{
+  padding-top: 20px;
+}
+/*changed background color to dark black*/
+ body{
+  background-color: #101010;
+}
+/*Changes font colors and styles*/
+.row > p{
+  color: #9d9d9d;
+  font-family: 'Lobster' cursive;
+  font-style: underline,bold;
+  font-size: 18pt;
+}
+.well > p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+}
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+  .well > p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13pt;
+}
+}
+
+  /* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .well > p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="photos/primusLogo.png" class="img-responsive" style="" alt="img"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Albums</a></li>
+        <li><a href="#">Shows</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
