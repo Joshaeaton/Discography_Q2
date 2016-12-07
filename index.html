@@ -43,16 +43,10 @@
 @media only screen and (max-width: 767px) {}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-    .tales {
-  width: 100%;
-}
-.carousel-inner{
-  width:100%;
-  max-height: 200px !important;
-}
 }
 
   </style>
@@ -75,9 +69,6 @@
         <li><a href="#">Albums</a></li>
         <li><a href="#">Shows</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
     </div>
   </div>
 </nav>
@@ -87,6 +78,7 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -95,7 +87,7 @@
         <img src="photos/LesClaypool1.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Les Claypool</h3>
-          <p>Vocals & Bassist</p>
+          <p>Bassist &amp; Lead Vocals</p>
         </div>      
       </div>
 
@@ -103,7 +95,15 @@
         <img src="photos/larryLalondeMushroom.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Larry "Ler" LaLonde</h3>
-          <p>Guitarist</p>
+          <p>Guitarist &amp; Backing Vocals </p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="photos/timHerbAlexander.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Tim "Herb" Alexander</h3>
+          <p>Drums &amp; Backing Vocals</p>
         </div>      
       </div>
     </div>
