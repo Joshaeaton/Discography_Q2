@@ -10,9 +10,16 @@
   <style>
   /*Google Font imports*/
   @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
+
+  /*Font style for content blocks*/
+  .well p{
+    font: 24px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  }
+
     /*Show times table styles*/
     .container.table-responsive{
-      padding-top: 25px;
+      padding-top: 35px;
+      padding-bottom: 30px;
     }
     .date-month{
       padding-top: 20px;
@@ -24,15 +31,18 @@
     color: #ec6837;
     }
     .city{
-      font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+      font: bold 18px "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: #feffff;
     }
     .venue{
-      font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+      font: bold 18px "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: #5f4fa8;
     }
-    .details{font: bold 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    .details{font: bold 14px "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: #f2f2f2;
+    }
+    .tickets{
+      font: bold 15px "Helvetica Neue", Arial, Helvetica, sans-serif;
     }
 
     /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -42,8 +52,8 @@
     }
     
     /* Add a gray background color and some padding to the footer */
-    footer {
-      color: #1e1d1d;
+    footer.container-fluid.text-center a{
+      font: bold 15px "Helvetica Neue", Arial, Helvetica, sans-serif;
       padding: 25px;
     }
     
@@ -72,7 +82,7 @@
 .container.text-center{
   padding-top: 20px;
 }
-/*changed background color to dark black*/
+/*changes background color to dark black*/
  body{
   background-color: #101010;
 }
@@ -87,7 +97,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
 }
-/*MEDIA QUERIES*/
+/*--MEDIA QUERIES--*/
 @media only screen and (min-width: 960px) and (max-width: 991px) {
   .well > p{
   font-family: 'Open Sans', sans-serif;
@@ -353,6 +363,11 @@
         <td>
           <div class="details">NYE SILVER ANNIVERSARY</div>
         </td>
+        <td>
+          <div class="tickets">
+            <a href="http://www.ticketmaster.com/primus-oakland-california-12-31-2016/event/1C00513CE3388CC6?artistid=735894&amp;majorcatid=10001&amp;minorcatid=60">TICKETS</a>
+          </div>
+        </td>
       </tr>
     </div>
     <div class="col-sm-4">
@@ -370,6 +385,11 @@
         <td>
           <div class="details">FESTIVAL</div>
         </td>
+        <td>
+          <div class="tickets">
+            <a href="http://rockontherange.com">TICKETS</a>
+          </div>
+        </td>
       </tr>
     </div>
     <div class="col-sm-4">
@@ -386,6 +406,11 @@
         </td>
         <td>
           <div class="details">HEADLINE</div>
+        </td>
+        <td>
+          <div class="tickets">
+            <a href="http://concerts.livenation.com/primus-grand-rapids-michigan-05-20-2017/event/0800516B2E1D65DF">TICKETS</a>
+          </div>
         </td>
       </tr>
     </div>
@@ -406,6 +431,11 @@
         <td>
           <div class="details">FESTIVAL</div>
         </td>
+        <td>
+          <div class="tickets">
+            <a href="http://www.hellfest.fr/en/">TICKETS</a>
+          </div>
+        </td>
       </tr>
     </div>
     <div class="col-sm-4">
@@ -423,14 +453,21 @@
         <td>
           <div class="details">AN EVENING WITH</div>
         </td>
+        <td>
+          <div class="tickets">
+            <a href="http://myticket.co.uk/artists/primus">TICKETS</a>
+          </div>
+        </td>
       </tr>
     </div>
   </div>
 </div>
 
+<!--Ma-->
+
 
 <footer class="container-fluid text-center">
-  <a href="#top">Back to top</a>
+  <a href="#top">BACK TO TOP</a>
 </footer>
 
 </body>
