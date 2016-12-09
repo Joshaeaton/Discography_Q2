@@ -50,7 +50,18 @@
       margin-bottom: 0;
       border-radius: 0;
     }
-    
+
+    /*Newsletter form styling*/
+    form.form-horizontal{
+      padding:25px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .form-group{
+      text-align: center;
+    }
+
     /* Add a gray background color and some padding to the footer */
     footer.container-fluid.text-center a{
       font: bold 15px "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -125,7 +136,7 @@
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
    
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
@@ -463,9 +474,56 @@
   </div>
 </div>
 
-<!--Ma-->
+<!--News Letter Form-->
+<div class="container text-center">
+  <div class="row">
+    <p id="signUp">Sign up</p>
+  </div>
+</div>
 
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="well">
+       <p>Want to be kept up to date on all upcoming shows and events? Sign up to the Newsletter mailing list and get a monthly update on what is going on, from new album releases to merch and where to buy tickets, we have you covered.</p>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+          </div>
+          <div class="form-group"> 
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Email Submitted</h4>
+      </div>
+      <div class="modal-body">
+        <p>Thank you! We got your info and will be sending you our monthly newsletter.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--Footer-->
 <footer class="container-fluid text-center">
   <a href="#top">BACK TO TOP</a>
 </footer>
