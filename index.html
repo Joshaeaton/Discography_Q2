@@ -10,7 +10,30 @@
   <style>
   /*Google Font imports*/
   @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
-    
+    /*Show times table styles*/
+    .container.table-responsive{
+      padding-top: 20px;
+    }
+    .date-month{
+      font: bold 24px "Helvetica Neue", Arial, Helvetica, sans-serif;
+      color: #5f4fa8;
+    }
+    .date-day{
+      font: bold 36px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #ec6837;
+    }
+    .city{
+      font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: #feffff;
+    }
+    .venue{
+      font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: #5f4fa8;
+    }
+    .details{font: bold 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: #f2f2f2;
+    }
+
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -19,7 +42,7 @@
     
     /* Add a gray background color and some padding to the footer */
     footer {
-      color: #333;
+      color: #1e1d1d;
       padding: 25px;
     }
     
@@ -57,7 +80,7 @@
   color: #9d9d9d;
   font-family: 'Lobster' cursive;
   font-style: underline,bold;
-  font-size: 18pt;
+  font-size: 20pt;
 }
 .well > p{
   font-family: 'Open Sans', sans-serif;
@@ -115,7 +138,7 @@
       <ul class="nav navbar-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#Albums">Albums</a></li>
-        <li><a href="#">Shows</a></li>
+        <li><a href="#Shows">Shows</a></li>
         <li><a href="#">Gallery</a></li>
       </ul>
     </div>
@@ -304,6 +327,106 @@
     </div>
   </div>
 </div>
+
+<!--Show Times-->
+<div class="container text-center">
+  <div class="row">
+    <p id="Shows">Shows</p>
+  </div>
+</div>
+
+<div class="container table-responsive">
+  <div class="row">
+    <div class="col-sm-4">
+      <tr>
+        <td>
+          <div class="date-month">DEC</div>
+          <div class="date-day">31</div>
+        </td>
+        <td>
+          <div class="city">OAKLAND, CA</div>
+        </td>
+        <td>
+          <div class="venue">FOX THEATRE</div>
+        </td>
+        <td>
+          <div class="details">NYE SILVER ANNIVERSARY</div>
+        </td>
+      </tr>
+    </div>
+    <div class="col-sm-4">
+      <tr>
+        <td>
+          <div class="date-month">MAY</div>
+          <div class="date-day">19-21</div>
+        </td>
+        <td>
+          <div class="city">COLUMBUS, OH</div>
+        </td>
+        <td>
+          <div class="venue">ROCK ON THE RANGE</div>
+        </td>
+        <td>
+          <div class="details">FESTIVAL</div>
+        </td>
+      </tr>
+    </div>
+    <div class="col-sm-4">
+      <tr>
+        <td>
+          <div class="date-month">MAY</div>
+          <div class="date-day">20</div>
+        </td>
+        <td>
+          <div class="city">GRAND RAPIDS, MI</div>
+        </td>
+        <td>
+          <div class="venue">MONROE LIVE</div>
+        </td>
+        <td>
+          <div class="details">HEADLINE</div>
+        </td>
+      </tr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <tr>
+        <td>
+          <div class="date-month">JUN</div>
+          <div class="date-day">17-19</div>
+        </td>
+        <td>
+          <div class="city">CLISSON, FR</div>
+        </td>
+        <td>
+          <div class="venue">HELLFEST</div>
+        </td>
+        <td>
+          <div class="details">FESTIVAL</div>
+        </td>
+      </tr>
+    </div>
+    <div class="col-sm-4">
+      <tr>
+        <td>
+          <div class="date-month">JUN</div>
+          <div class="date-day">20</div>
+        </td>
+        <td>
+          <div class="city">LONDON, UK</div>
+        </td>
+        <td>
+          <div class="venue">THE ROUNDHOUSE</div>
+        </td>
+        <td>
+          <div class="details">AN EVENING WITH</div>
+        </td>
+      </tr>
+    </div>
+  </div>
+</div>
+
 
 <footer class="container-fluid text-center">
   <a href="#top">Back to top</a>
